@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.mytsai.FrogCroak" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="25" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<application android:theme="@style/AppTheme" android:icon="@drawable/Icon" android:label="FrogCroak">
+		<meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key" />
+	</application>
+</manifest>

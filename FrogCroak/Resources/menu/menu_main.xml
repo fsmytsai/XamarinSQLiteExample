@@ -1,0 +1,24 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tsaiweb.myapplication.MainActivity">
+    <item
+        android:id="@+id/item_AddMarker"
+        android:orderInCategory="100"
+        android:title="新增個人地點"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_ShowMyMarker"
+        android:orderInCategory="200"
+        android:title="顯示個人地點"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_ShowAllMarker"
+        android:orderInCategory="300"
+        android:checkable="true"
+        android:title="顯示官方地點"
+        app:showAsAction="never" />
+</menu>

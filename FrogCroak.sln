@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogCroak", "FrogCroak\FrogCroak.csproj", "{F5338042-2538-4F63-BC47-C0EFCC127C7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogCroakCL", "FrogCroakCL\FrogCroakCL.csproj", "{7BD06929-D607-49A0-92D9-F016F7052C07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5338042-2538-4F63-BC47-C0EFCC127C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5338042-2538-4F63-BC47-C0EFCC127C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5338042-2538-4F63-BC47-C0EFCC127C7B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F5338042-2538-4F63-BC47-C0EFCC127C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5338042-2538-4F63-BC47-C0EFCC127C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5338042-2538-4F63-BC47-C0EFCC127C7B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7BD06929-D607-49A0-92D9-F016F7052C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD06929-D607-49A0-92D9-F016F7052C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD06929-D607-49A0-92D9-F016F7052C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD06929-D607-49A0-92D9-F016F7052C07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B08CB1A8-77B7-4ADC-8E02-E3F5CD41318C}
+	EndGlobalSection
+EndGlobal
