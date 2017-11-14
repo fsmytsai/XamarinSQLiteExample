@@ -1,10 +1,5 @@
-# XamarinAndroidFrogCroak
-Xamarin.Android 版本的青蛙呱呱，完成度最高。
+# XamarinSQLiteExample
+使用 Xamarin.Android 版本的青蛙呱呱，實作 Xamarin SQLite 。
 
-HackNTU 後陸陸續續有在做，Summer Project 前完成 Java -> C# 轉移，Summer Project 第一天新加了一些功能。
-
-以後有空還有可能會更新，加個語音轉文字之類的功能~~~
-
-專案中圖片皆有版權，請勿隨意使用。
-
-成品：[Google Play連結](https://play.google.com/store/apps/details?id=com.mytsai.FrogCroak)
+本專案是為了 Xamarin.iOS 版的青蛙呱呱做準備，將所有 SQLite 資料存取、網路請求及 Models 全部抽出來做成 Class Library。
+而 SQLite 的資料存取也從原生 Andorid SDK 提供的類換成 SQLite-net ，因此連 SQLite 資料存取都能與 Xamarin.iOS 共用。
